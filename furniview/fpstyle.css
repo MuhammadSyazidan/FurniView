@@ -1,0 +1,130 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8b4513;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Horizontal rule */
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Labels */
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input fields */
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Submit button */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Links */
+a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* Password input container */
+.password-input {
+    position: relative;
+}
+
+/* Eye icon */
+.password-input button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+}
+
+.password-input button i {
+    color: #555;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.password-input button:hover i {
+    color: #333;
+}
+
+/* Prevent text from shrinking when eye icon is displayed */
+.password-input input[type="password"] {
+    min-width: calc(100% - 40px);
+}

@@ -1,0 +1,79 @@
+/* Gaya untuk konten utama */
+.content {
+    padding: 20px;
+    overflow: auto; /* Menangani konten yang melebihi ukuran container */
+}
+
+/* Gaya untuk judul produk */
+.card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Gaya untuk tabel produk */
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.card th,
+.card td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Gaya untuk gambar produk */
+.card img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Gaya untuk tombol "View Details" */
+.card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk pesan "No products found" */
+.card td[colspan="6"] {
+    text-align: center;
+    color: #999;
+}
+
+/* Gaya untuk header */
+.header {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk teks "Welcome" */
+.welcome-text h2 {
+    margin: 0;
+    color: #333;
+}
+
+/* Gaya untuk teks "FurniView Products" */
+.title-text h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* Gaya untuk link di sidebar */
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Gaya untuk link di sidebar saat dihover */
+.sidebar ul li a:hover {
+    color: #4CAF50;
+}

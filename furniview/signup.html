@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurniView - Sign Up</title>
+    <link rel="stylesheet" href="stylesign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signup">
+            <form action="signup.php" method="post">
+                <h1>Sign Up</h1>
+                <hr>
+                <label for="fullname">Nama Lengkap</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
+
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+
+                <label for="telepon">Telepon</label> <!-- Tambah baris ini -->
+                <input type="text" id="telepon" name="telepon" placeholder="Your phone number" required> <!-- Tambah baris ini -->
+
+                <label for="alamat">Alamat</label> <!-- Tambah baris ini -->
+                <input type="text" id="alamat" name="alamat" placeholder="Your address" required> <!-- Tambah baris ini -->
+
+
+                <div class="button-container">
+                    <button type="submit">Sign Up</button>
+                </div>
+                <p>Already have an account? <a href="index.html">Log In</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
